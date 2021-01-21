@@ -1,0 +1,24 @@
+{
+    "orgName": "ci_org",
+    "edition": "Developer",
+    "hasSampleData": "false",
+    "features": ["AuthorApex", "PersonAccounts", "TerritoryManagement"],
+    "settings": {
+        "accountSettings": {
+            "enableAccountTeams": true
+        },
+        "opportunitySettings": {
+            "enableOpportunityTeam": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "chatterSettings": {
+            "enableChatter": true
+        }
+    },
+    "adminEmail": "chendachhean@gmail.com"
+}
