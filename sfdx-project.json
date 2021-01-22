@@ -6,6 +6,6 @@
     }
   ],
   "namespace": "",
-  "sfdcLoginUrl": "https://gs0.salesforce.com",
+  "sfdcLoginUrl": "https://afd2-dev-ed.my.salesforce.com",
   "sourceApiVersion": "50.0"
 }

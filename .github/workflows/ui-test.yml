@@ -15,9 +15,8 @@ jobs:
 #        run: npm ci && npm install playwright
       - name: Create org and user
         run: |
-          sfdx auth:jwt:grant --clientid 3MVG9SemV5D80oBeX0cnx.ekz5AjR9yfzePjZJlEK4nW1FfV7Z1EJm3cM_opgmAWOjXMF.jfIOuX.7KWGv6cf  --jwtkeyfile ./server.key --username dub.id-pmow@force.com -a HubOrg
+          sfdx auth:jwt:grant --clientid 3MVG9kBt168mda_9mVxjfYU9ULJLbCx8uXkqQ3cdGV_TdSMUBu9yy2xkFPd20IoFTAYCqaABssagWQ7pgYQiE --jwtkeyfile ./server.key --username j.silute+jan2021@gmail.com -a HubOrg
           sfdx force:org:create -v HubOrg -s -f ./config/ci_scratch_template.json -d 1 -w 10 -a ciorg
           sfdx force:user:create -f config/qa-user-template.json -a qauser
           sfdx force:org:list
           sfdx force:org:open -u qauser -r --loglevel=TRACE --json
-
