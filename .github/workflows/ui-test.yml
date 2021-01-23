@@ -13,4 +13,4 @@ jobs:
           sfdx force:org:create -v HubOrg -s -f ./config/ci_scratch_template.json -d 1 -w 10 -a ciorg
           sfdx force:user:create -f config/qa-user-template.json -a qauser
           sfdx force:org:list
-          sfdx force:org:open -u qauser -r --loglevel=TRACE --json
+          sfdx force:org:open -u qauser -r --loglevel=TRACE --json --dev-debug --dev-debug
